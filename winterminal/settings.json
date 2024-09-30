@@ -1,0 +1,205 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "disableAnimations": false,
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "antialiasingMode": "grayscale",
+            "colorScheme": "Atom",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "cellHeight": "1.5",
+                "face": "FiraCode Nerd Font Mono",
+                "size": 13
+            },
+            "icon": null
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Prompt de comando"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{c68d7021-7a6d-5076-817e-4db05d9c2adb}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{c9762d97-3fbf-5b25-a607-f3d5068145fb}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+                "hidden": true,
+                "name": "Ubuntu-22.04",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#161719",
+            "black": "#000000",
+            "blue": "#80BBFF",
+            "brightBlack": "#444444",
+            "brightBlue": "#96CBFE",
+            "brightCyan": "#85BEFD",
+            "brightGreen": "#94FA36",
+            "brightPurple": "#B9B6FC",
+            "brightRed": "#FF4060",
+            "brightWhite": "#E0E0E0",
+            "brightYellow": "#F5FFA8",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#85BEFD",
+            "foreground": "#C5C8C6",
+            "green": "#55A12D",
+            "name": "Atom",
+            "purple": "#B9B6FC",
+            "red": "#FF4060",
+            "selectionBackground": "#FFFFFF",
+            "white": "#E0E0E0",
+            "yellow": "#FFD7B1"
+        },
+        {
+            "background": "#0A0E14",
+            "black": "#01060E",
+            "blue": "#53BDFA",
+            "brightBlack": "#686868",
+            "brightBlue": "#59C2FF",
+            "brightCyan": "#95E6CB",
+            "brightGreen": "#C2D94C",
+            "brightPurple": "#FFEE99",
+            "brightRed": "#F07178",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFB454",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#90E1C6",
+            "foreground": "#B3B1AD",
+            "green": "#91B362",
+            "name": "Ayu Dark",
+            "purple": "#FAE994",
+            "red": "#EA6C73",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C7C7C7",
+            "yellow": "#F9AF4F"
+        },
+        {
+            "background": "#1F2430",
+            "black": "#191E2A",
+            "blue": "#6DCBFA",
+            "brightBlack": "#686868",
+            "brightBlue": "#73D0FF",
+            "brightCyan": "#95E6CB",
+            "brightGreen": "#BAE67E",
+            "brightPurple": "#D4BFFF",
+            "brightRed": "#F28779",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFD580",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#90E1C6",
+            "foreground": "#CBCCC6",
+            "green": "#A6CC70",
+            "name": "Ayu Mirage",
+            "purple": "#CFBAFA",
+            "red": "#ED8274",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C7C7C7",
+            "yellow": "#FAD07B"
+        }
+    ],
+    "showTerminalTitleInTitlebar": true,
+    "tabSwitcherMode": "inOrder",
+    "tabWidthMode": "titleLength",
+    "themes": [],
+    "useAcrylicInTabRow": false
+}
