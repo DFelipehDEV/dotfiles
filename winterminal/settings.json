@@ -16,10 +16,6 @@
             "id": "User.paste"
         },
         {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,6 +23,10 @@
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
         }
     ],
     "copyFormatting": "none",
@@ -40,12 +40,12 @@
             "keys": "ctrl+c"
         },
         {
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
             "id": "User.find",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
         },
         {
             "id": "User.splitPane.A6751878",
@@ -122,13 +122,19 @@
                 "hidden": true,
                 "name": "Ubuntu-22.04",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
+                "hidden": false,
+                "name": "Ubuntu 22.04.5 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             }
         ]
     },
     "schemes": 
     [
         {
-            "background": "#161719",
+            "background": "#1F1F24",
             "black": "#000000",
             "blue": "#80BBFF",
             "brightBlack": "#444444",
@@ -195,6 +201,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C7C7C7",
             "yellow": "#FAD07B"
+        },
+        {
+            "background": "#1F1F24",
+            "black": "#43454B",
+            "blue": "#4E89E6",
+            "brightBlack": "#926F92",
+            "brightBlue": "#D4FFFF",
+            "brightCyan": "#FFCCFF",
+            "brightGreen": "#B1F9E7",
+            "brightPurple": "#FFD9B9",
+            "brightRed": "#FF89DB",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FF9965",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#CDCCFF",
+            "foreground": "#FFFFFF",
+            "green": "#83C9BD",
+            "name": "Converted iTerm Theme",
+            "purple": "#FFB1B7",
+            "red": "#FF89DB",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#D9C968"
+        },
+        {
+            "background": "#1F1F24",
+            "black": "#414868",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#73DACA",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#A9B1DC",
+            "green": "#73DACA",
+            "name": "Tokyo Night",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#28344A",
+            "white": "#C0CAF5",
+            "yellow": "#E0AF68"
         }
     ],
     "showTerminalTitleInTitlebar": true,
